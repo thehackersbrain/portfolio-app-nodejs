@@ -2,7 +2,7 @@
 
 > By TheHackersBrain [Gaurav Raj]
 
-[](https://thehackersbrain.github.io/images/joker/portfolio_nodejs.png)
+[portfolio-app](https://thehackersbrain.github.io/images/joker/portfolio_nodejs.png)
 
 Fully Responsive and Mobile Ready with Portfolio App In NodeJS with fully organised and working backend system. With Email notification on Sending Message in Entered Email with Support of Discord Webhooks. So you don't have to worry to open and check your emails for any message notification of a user, you can get all notifications of contact messages directly on your Discord App.
 
