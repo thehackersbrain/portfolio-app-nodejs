@@ -38,7 +38,7 @@ mongoose.connect('mongodb://localhost/portfolioDB', {
 });
 db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function () {
-	console.log('Connection to database is established successfully...');
+	console.log('');
 });
 
 // database schema
