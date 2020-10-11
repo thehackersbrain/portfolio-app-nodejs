@@ -8,9 +8,7 @@ const { createHook } = require('async_hooks');
 const app = express();
 const db = mongoose.connection;
 const port = process.env.PORT || 8000;
-const discord = new Webhook(
-	'https://discord.com/api/webhooks/757947473250615450/YFPbzbxbbwqjp6bEvxQHn-LHJ24-aCTEOOQAL9NNjg-Bw93tlFqn_HqLpUIKZ6bpxCgh'
-);
+const discord = new Webhook('xxxxxxxxxxxxxxxxxxxxxxxxxxx');
 
 // basic app setup
 app.set('view engine', 'ejs');
@@ -26,8 +24,8 @@ app.use(
 const transporter = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
-		user: 'theh4ckersbrain@gmail.com',
-		pass: 'Oy[wCnRG;<Qav2]7pTtJ1fl{)',
+		user: 'xxxxxxxxxxxxxxxxxx',
+		pass: 'xxxxxxxxxxxxx',
 	},
 });
 
