@@ -1,0 +1,236 @@
+/* including google fonts */
+@font-face {
+	font-family: Montserrat4;
+	src: url(/static/fonts/montserrat400.ttf);
+}
+@font-face {
+	font-family: Montserrat5;
+	src: url(/static/fonts/montserrat500.ttf);
+}
+@font-face {
+	font-family: Poppins6;
+	src: url(/static/fonts/poppins600.ttf);
+}
+@font-face {
+	font-family: Poppins7;
+	src: url(/static/fonts/poppins700.ttf);
+}
+
+body {
+	scroll-behavior: smooth;
+}
+
+.navbar .navbar-brand {
+	font-family: 'Poppins6';
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: 10rem;
+}
+nav i {
+	font-size: 1.6rem;
+	color: #fff;
+	margin-right: 0.8rem;
+}
+nav a {
+	outline: none;
+}
+nav ul li a {
+	font-family: 'Montserrat5';
+	margin-left: 1rem;
+	outline: none;
+}
+.alert {
+	font-family: 'Montserrat5';
+}
+.header-section {
+	background: url(/static/img/bg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4.5rem 0 4.5rem 0;
+}
+.main-headline {
+	color: #ffffff;
+	font-family: 'Poppins7';
+	font-size: 10vh;
+}
+.main-subheading {
+	font-family: 'Montserrat5';
+	color: #ffffff;
+	font-size: 2.9vh;
+}
+.main-subline {
+	font-family: 'Montserrat5';
+	color: #ffffff;
+	font-size: 2.3vh;
+}
+.hire-btn {
+	color: #ffffff;
+	font-family: 'Montserrat5';
+	padding: 1vh 2.9vh 1vh 2.9vh; /* top right bottom left*/
+	border: 2px solid #03befc;
+}
+.hire-btn:hover {
+	border: 2px solid #03befc;
+	background: #03befc;
+}
+.about-header {
+	text-align: center;
+	font-family: 'Poppins7';
+	text-decoration: underline;
+	padding-top: 3.5rem;
+	padding-bottom: 1rem;
+	color: #4070f4;
+}
+.about-img {
+	/* width: 300px;*/
+	height: 30rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.about-div {
+	padding-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+}
+.about-heading {
+	font-family: 'Poppins6';
+	text-align: center;
+}
+.about-desc {
+	font-family: 'Montserrat5';
+	text-align: center;
+	font-size: 2.3vh;
+	color: rgb(37, 40, 51);
+}
+.about-social-icon a i {
+	color: rgb(48, 48, 56);
+	font-size: 1.8rem;
+	letter-spacing: 8px;
+}
+.skills-title {
+	font-family: 'Poppins6';
+}
+.skills-tagline {
+	font-family: 'Montserrat4';
+}
+.progress-bar {
+	background: #4070f4;
+}
+.skillsets {
+	font-family: 'Montserrat5';
+	margin-bottom: 1rem;
+}
+.skills-hire {
+	font-family: 'Montserrat5';
+}
+.skill-btn {
+	background: #03befc;
+}
+.skill-btn:hover {
+	color: #000;
+	background: transparent;
+	transition-duration: 0.2s;
+}
+.social {
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+.social-icons {
+	font-size: 2rem;
+	margin-right: 1rem;
+	color: rgb(54, 146, 233);
+}
+.social a {
+	outline: none;
+}
+.projects-container {
+	padding: 0;
+	margin: 0;
+}
+.projects-btn {
+	padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+	font-size: 0.9rem;
+	border-color: rgb(15, 13, 20);
+	color: rgb(61, 61, 61);
+}
+.project-card {
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+.project-card img {
+	border-radius: 0.5rem;
+	transition: 0.5s all ease-in-out;
+}
+.project-card:hover img {
+	transform: scale(1.2);
+}
+.album {
+	background: url(/static/img/bg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.form-title {
+	font-family: 'Poppins6';
+}
+.contact-msg {
+	font-family: 'Montserrat5';
+}
+form {
+	font-family: 'Montserrat5';
+}
+
+.footer-heading {
+	text-align: center;
+	font-family: 'Poppins6';
+	font-size: 2rem;
+}
+.footer {
+	background-color: #305edd;
+	color: #fff;
+	text-align: center;
+	font-weight: var(--font-semi);
+	padding: 2rem 0.5rem 2rem 0.5rem;
+}
+.footer-social-icon a i {
+	color: #fff;
+	font-size: 1.8rem;
+	letter-spacing: 8px;
+}
+.footer-subtitle {
+	padding-top: 2rem;
+	font-family: 'Poppins6';
+}
+.footer-subtitle a {
+	outline: none;
+}
+.scroll-top {
+	width: 75px;
+	height: 75px;
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	display: none;
+	background: transparent;
+	border: none;
+}
+.scroll-top:hover {
+	background: transparent;
+	border: none;
+	outline: none;
+	overflow: hidden;
+}
+
+.scroll-top i {
+	display: inline-block;
+	color: rgb(19, 31, 136);
+	font-size: 3rem;
+}

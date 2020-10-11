@@ -1,0 +1,21 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "Portfolio App In NodeJS",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Gaurav Raj",
+	"license": "ISC",
+	"dependencies": {
+		"discord-webhook-node": "^1.1.8",
+		"ejs": "^3.1.5",
+		"express": "^4.17.1",
+		"mongoose": "^5.10.9",
+		"nodemailer": "^6.4.13"
+	},
+	"engines": {
+		"node": "v10.21.0"
+	}
+}
