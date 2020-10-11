@@ -7,7 +7,7 @@ const { Webhook, MessageBuilder } = require('discord-webhook-node');
 const { createHook } = require('async_hooks');
 const app = express();
 const db = mongoose.connection;
-const port = 8000;
+const port = process.env.PORT || 8000;
 const discord = new Webhook(
 	'https://discord.com/api/webhooks/757947473250615450/YFPbzbxbbwqjp6bEvxQHn-LHJ24-aCTEOOQAL9NNjg-Bw93tlFqn_HqLpUIKZ6bpxCgh'
 );
@@ -117,6 +117,4 @@ app.post('/', (req, res) => {
 	});
 });
 
-app.listen(port, () => {
-	console.log(`Server is Started on http://127.0.0.1:${port}/`);
-});
+app.listen(port);
